@@ -14,5 +14,5 @@ Os fotodiodos, segundo a DigiKey (s.d.), são componentes sensíveis à luz capa
 ## 4. Circuito RC e Caracterização Elétrica da Pele: 
 A resposta elétrica da pele também pode ser analisada através de circuitos RC, os quais permitem medir variações de capacitância e condutância superficial. Essas propriedades estão diretamente associadas ao conteúdo hídrico e à presença de lipídios na pele. O tempo de carga/descarga do circuito RC fornece um parâmetro indireto da composição da pele, complementando os dados ópticos captados pelo fotodiodo.
 
-## 5. Exibição de Dados em Display LCD:
-A inclusão de um display LCD permite fornecer ao usuário final feedback imediato sobre o estado da pele. Isso melhora a interação e facilita o uso cotidiano do sistema, possibilitando aplicações em cuidados domiciliares, clínicas dermatológicas e laboratórios de cosméticos personalizados.
+## 5. Interface com Usuário:
+O usuário irá ver os dados por meio de um LCD, onde serão mostrados valores medidos de hidratação e oleosidade e mensagens de feedback em relação à pele. Além do display, LEDs de diferentes cores irão sinalizar o de acordo com o resultado da medição, como um LED verde para quando estiver com a pele boa, um LED amarelo para uma pele intermediaria e um vermelho para ruim, um buzzer também sinalizará quando a medição começar e terminar e por fim um botão para começar a medição.
