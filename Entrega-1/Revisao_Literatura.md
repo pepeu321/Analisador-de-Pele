@@ -1,12 +1,9 @@
 # Revisão de Literatura
 
-A avaliação da oleosidade e hidratação da pele é essencial tanto em contextos clínicos quanto cosméticos, pois permite identificar desequilíbrios cutâneos relacionados a doenças dermatológicas e a envelhecimento precoce. A literatura apresenta diversas abordagens para essa avaliação, variando desde escalas visuais até sensores eletrônicos de alta precisão.
+O projeto propõe o desenvolvimento de um analisador eletrônico portátil de pele, com foco na medição de hidratação e oleosidade, utilizando o microcontrolador MSP430xxxx. A proposta visa preencher uma lacuna existente no acesso a ferramentas acessíveis e objetivas de diagnóstico da pele, substituindo dispositivos de alto custo como Corneometer® e Sebumeter®. O produto permitirá o acompanhamento da saúde da pele de forma prática, com potencial aplicação clínica e cosmética.
 
-## 1. Avaliação de Tipos de Pele e Técnicas Tradicionais:
-Segundo Oliveira et al. (2023), a caracterização do tipo de pele pode ser feita por métodos subjetivos, como escalas visuais e autorrelato, que, embora populares, apresentam limitações quanto à precisão e reprodutibilidade. Isso motiva o desenvolvimento de soluções instrumentais automatizadas, capazes de fornecer dados quantitativos sobre oleosidade e hidratação.
-
-## 2. Sensores Comerciais de Oleosidade e Hidratação:
-Dispositivos como o Sebumeter® e o Corneometer®, fabricados pela Courage + Khazaka, são considerados padrão-ouro para medição de sebo e conteúdo hídrico do estrato córneo, respectivamente. O Sebumeter, por exemplo, quantifica a oleosidade com base na transparência adquirida por uma fita plástica em contato com a pele (Pande & Misri, 2005), enquanto o Corneometer se baseia na medição da constante dielétrica da pele, relacionada ao conteúdo de água.
+## 1. Sensores Comerciais de Oleosidade e Hidratação:
+Segundo Oliveira et al. (2023), o conhecimento preciso do tipo de pele é fundamental para a escolha de produtos cosméticos e procedimentos dermatológicos adequados. Equipamentos como o Corneometer®, que mede capacitância da pele para avaliar hidratação, e o Sebumeter®, que analisa a transparência de uma fita para quantificar a oleosidade, são amplamente reconhecidos no mercado, mas inacessíveis ao público pelo seu alto custo. 
 
 ## 3. Aplicação de Fotodiodos em Sensores de Pele:
 Os fotodiodos, segundo a DigiKey (s.d.), são componentes sensíveis à luz capazes de detectar variações mínimas na intensidade da luz refletida ou absorvida. Quando combinados a uma fonte de luz controlada, permitem inferir propriedades da pele com base na refletância óptica — característica diretamente influenciada pela oleosidade e hidratação. Essa abordagem é vantajosa por ser não invasiva, de baixo custo e fácil integração em sistemas embarcados.
