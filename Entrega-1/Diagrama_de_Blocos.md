@@ -1,7 +1,7 @@
 # Diagrama de Blocos
 
 ## Descrição básica do diagrama de blocos:  
-Dois sinais diferente serão recebidos por seus respectivos sensores, esses sensores serão processados pelo microcontraldor, para então
+Dois sinais diferente serão recebidos por seus respectivos sensores, esses sensores serão processados pelo microcontrolador, para então
 mostrar resultados no display LCD.
 
 
