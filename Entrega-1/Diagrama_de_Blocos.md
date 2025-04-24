@@ -5,4 +5,4 @@ Dois sinais diferente serão recebidos por seus respectivos sensores, esses sens
 mostrar os resultados no display LCD.
 
 
-#### ![Diagrama de blocos](https://github.com/user-attachments/assets/c9ccae65-bf08-4958-ad94-b9ee208f1532)
+#### ![Diagrama de blocos](https://github.com/user-attachments/assets/5bc94487-e463-4839-9487-04b369517917)
