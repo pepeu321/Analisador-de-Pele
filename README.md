@@ -1,1 +1,1 @@
-Etapa 1 - Analisador de Pele
+Analisador de Pele
