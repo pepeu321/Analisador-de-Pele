@@ -1,13 +1,8 @@
 # Motivação dos Sensores e Microcontrolador
 
 ## Microcontrolador MSP430xxxx: 
-Controla os sensores e processa os dados de hidratação e oleosidade, exibindo as informações no display LCD.
+A definição do microcontrolador a ser utilizado no projeto foi pela necessidade de garantir precisão e estabilidade na aquisição de sinais analógicos provenientes dos sensores. Optou-se por um microcontrolador que oferece recursos adequados para esse tipo de aplicação, como conversor analógico-digital (ADC) de 12 bits, timer no modo de captura e quantidade suficiente de pinos de entrada e saída, essenciais para a conexão direta com os sensores e o display LCD.
 
-ADC de 12 bits; 
-
-Timer com modo de captura;
-
-Número suficiente de pinos;
 
 ## Sensor de Hidratação – Circuito RC: 
 
