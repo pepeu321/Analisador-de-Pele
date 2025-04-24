@@ -9,7 +9,7 @@ Segundo Oliveira et al. (2023), o conhecimento preciso do tipo de pele é fundam
 Os fotodiodos, segundo a DigiKey (s.d.), são componentes sensíveis à luz capazes de detectar variações mínimas na intensidade da luz refletida ou absorvida. Quando combinados a uma fonte de luz controlada, permitem inferir propriedades da pele com base na refletância óptica — característica diretamente influenciada pela oleosidade e hidratação. Essa abordagem é vantajosa por ser não invasiva, de baixo custo e fácil integração em sistemas embarcados.
 
 ### 3. Circuito RC e Caracterização Elétrica da Pele: 
-A resposta elétrica da pele também pode ser analisada através de circuitos RC, os quais permitem medir variações de capacitância e condutância superficial. Essas propriedades estão diretamente associadas ao conteúdo hídrico e à presença de lipídios na pele. O tempo de carga/descarga do circuito RC fornece um parâmetro indireto da composição da pele, complementando os dados ópticos captados pelo fotodiodo.
+A resposta elétrica da pele também pode ser analisada através de circuitos RC, os quais permitem medir variações de capacitância e condutância superficial. Essas propriedades estão diretamente associadas ao conteúdo hídrico e à presença de lipídios na pele. 
 
 ### 4. Interface com Usuário:
 O usuário irá ver os dados por meio de um LCD, onde serão mostrados valores medidos de hidratação e oleosidade e mensagens de feedback em relação à pele. Além do display, LEDs de diferentes cores irão sinalizar o de acordo com o resultado da medição, como um LED verde para quando estiver com a pele boa, um LED amarelo para uma pele intermediaria e um vermelho para ruim, um buzzer também sinalizará quando a medição começar e terminar e por fim um botão para começar a medição.
