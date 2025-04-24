@@ -8,4 +8,6 @@
 
 4. Courage + Khazaka electronic GmbH. Technical information on Sebumeter and Corneometer.
 
-5. DIGIKEY. The Basics of Photodiodes and Phototransistors and How to Apply Them. Disponível em: https://www.digikey.com.br/pt/articles/the-basics-of-photodiodes-and-phototransistors-and-how-to-apply-them. 
+5. DIGIKEY. The Basics of Photodiodes and Phototransistors and How to Apply Them. Disponível em: https://www.digikey.com.br/pt/articles/the-basics-of-photodiodes-and-phototransistors-and-how-to-apply-them.
+
+6. TEXAS INSTRUMENTS. MSP430x5xx and MSP430x6xx Family User’s Guide.
