@@ -12,4 +12,5 @@ Os fotodiodos, segundo a DigiKey (s.d.), são componentes sensíveis à luz capa
 A resposta elétrica da pele também pode ser analisada através de circuitos RC, os quais permitem medir variações de capacitância e condutância superficial. Essas propriedades estão diretamente associadas ao conteúdo hídrico e à presença de lipídios na pele. 
 
 ### 4. Interface com Usuário:
-O usuário irá ver os dados por meio de um LCD, onde serão mostrados valores medidos de hidratação e oleosidade e mensagens de feedback em relação à pele. Além do display, LEDs de diferentes cores irão sinalizar o de acordo com o resultado da medição, como um LED verde para quando estiver com a pele boa, um LED amarelo para uma pele intermediaria e um vermelho para ruim, um buzzer também sinalizará quando a medição começar e terminar e por fim um botão para começar a medição.
+O usuário irá ver os dados por meio de um LCD, onde serão mostrados valores medidos de hidratação e oleosidade, 
+além de mensagens de feedback em relação à pele (ex: oleosidade: 50% - Intermediária) 
