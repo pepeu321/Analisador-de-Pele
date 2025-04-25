@@ -1,16 +1,13 @@
 # Diagrama de Blocos
 
 ## Descrição básica do diagrama de blocos:  
-Os sinais serão extraídos da camada mais superficial da pele, a epiderme. Para o sensor de umidade/ressecamento, que utiliza um circuito RC, será considerada a variação da impedância elétrica, com ênfase na capacitância, a qual se altera conforme a pele se apresenta mais úmida ou ressecada.
+Os sinais serão extraídos diretamente da superfície da pele do usuário, podendo ser coletados em diferentes regiões do rosto ou do corpo. Para a medição da hidratação ou ressecamento, será utilizado um circuito RC. A capacitância do sensor varia conforme o teor de umidade da pele, aumentando em condições de maior hidratação. Um timer interno do microcontrolador da família MSP430 será empregado para medir o tempo de carga e descarga do circuito, o qual está diretamente relacionado ao nível de umidade da pele.
 
-Já para o sensor de oleosidade, baseado em um fotodiodo, será considerada a variação da intensidade luminosa no espectro do infravermelho próximo, que muda conforme o nível de oleosidade da pele.
+A análise da oleosidade será realizada por meio de um fotodiodo sensível à radiação no espectro do infravermelho próximo. A intensidade luminosa refletida varia de acordo com o nível de oleosidade da pele. O sinal gerado será convertido por um conversor analógico digital integrado ao microcontrolador, permitindo a aquisição precisa dos dados analógicos.
 
-O sinal proveniente do sensor de umidade será processado por um conversor analógico-digital (ADC), integrado ao microcontrolador da família MSP430. Posteriormente, será utilizado um timer interno para medir o tempo de carga e descarga do circuito RC, o qual está relacionado à umidade da pele.
+Por fim, os valores obtidos de hidratação e oleosidade serão exibidos de forma simultânea em um display LCD. Os resultados serão apresentados em formato percentual (%), facilitando a interpretação dos dados pelo usuário.
 
-O sinal do sensor de oleosidade também será convertido por um ADC, permitindo a coleta de dados analógicos com precisão.
+#### ![Diagrama de blocos4](https://github.com/user-attachments/assets/ed6b1f71-28f2-44c7-9729-fe29639f3942)
 
-Por fim, os níveis de oleosidade e umidade da pele serão exibidos de forma quantitativa e simultânea em um display LCD, expressos em percentual (%), facilitando a interpretação dos dados pelo usuário.
-
-
-#### ![Diagrama de blocos](https://github.com/user-attachments/assets/5bc94487-e463-4839-9487-04b369517917)
+Para facilitar a visualização do protótipo desenvolvido, apresenta-se como referência um produto já disponível no mercado: o analisador digital de pele facial e corporal Skin Analyser, acessível através do link [https://produto.mercadolivre.com.br/MLB-1951446111-skin-up-analisador-limpeza-pele-facial-corporal-oleosidade-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic]
 
