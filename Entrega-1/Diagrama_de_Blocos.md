@@ -9,5 +9,5 @@ Por fim, os valores obtidos de hidratação e oleosidade serão exibidos de form
 
 #### ![Diagrama de blocos4](https://github.com/user-attachments/assets/ed6b1f71-28f2-44c7-9729-fe29639f3942)
 
-Para facilitar a visualização do protótipo desenvolvido, apresenta-se como referência um produto já disponível no mercado: o analisador digital de pele facial e corporal Skin Analyser, acessível através do link [https://produto.mercadolivre.com.br/MLB-1951446111-skin-up-analisador-limpeza-pele-facial-corporal-oleosidade-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic]
+Para facilitar a visualização do protótipo desenvolvido, foi incluída uma referência de produto semelhante disponível no mercado: o analisador digital de pele facial e corporal Skin Analyser, acessível através do link [https://produto.mercadolivre.com.br/MLB-1951446111-skin-up-analisador-limpeza-pele-facial-corporal-oleosidade-_JM?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic]
 
