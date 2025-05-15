@@ -1,6 +1,6 @@
-#Imagem 2D do Analisador de Pele
+## Imagem 2D do Analisador de Pele
 
-
+![Imagem2D](https://github.com/user-attachments/assets/110d4ac4-fe19-4196-917a-9bceb9a0caa4)
 
 O protótipo do analisador de pele consiste na criação de uma case portátil, com espaço interno para acomodar a placa contendo o microcontrolador (MSP430G2553) e a conexão com os dois sensores desenvolvidos: o sensor de oleosidade e o sensor de hidratação.
 
