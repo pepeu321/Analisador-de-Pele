@@ -10,7 +10,7 @@ Funcionamento Básico:
 * Emissão de Luz: O LED Infravermelho emite luz direcionada à superfície da pele.
 * Reflexão e Detecção: Parte dessa luz é refletida de volta pela pele. O fototransistor, posicionado ao lado do LED, capta a intensidade dessa luz refletida. Mas entre o fototransistor e o LED tem uma barreira para um não interferir no outro
 * Variação de Sinal: A quantidade de luz refletida altera a corrente conduzida pelo fototransistor. 
-Leitura da Tensão: A tensão de saída do circuito é monitorada. Quanto maior o nível de reflexão da pele, maior a tensão de saída.
+* Leitura da Tensão: A tensão de saída do circuito é monitorada. Quanto maior o nível de reflexão da pele, maior a tensão de saída.
 
 <img src="https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5" width="400">
 
