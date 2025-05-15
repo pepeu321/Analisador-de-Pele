@@ -1,6 +1,8 @@
 # Sensor de Oleosidade
 
-O código abaixo é um exemplo de como integrar o sensor de oleosidade com o microcontrolador MSP430. Ele tem a função de medir a intensidade da luz refletida pela pele utilizando um fototransistor conectado à entrada analógica. O valor obtido é convertido pelo ADC interno e enviado via UART para visualização em um terminal serial. 
+O código a seguir exemplifica a integração de um sensor de oleosidade com o microcontrolador MSP430. A principal função do sistema é medir a intensidade da luz refletida pela pele, captada por um fototransistor conectado a uma entrada analógica (canal A1). Esse sinal analógico é convertido em valor digital por meio do conversor analógico-digital (ADC) interno do MSP430. O valor convertido é então formatado e transmitido via UART para um terminal serial, permitindo a monitorização em tempo real da resposta do sensor. Essa comunicação é fundamental para a validação e calibração do sensor antes de sua integração ao sistema completo. O processo de leitura e transmissão é repetido automaticamente a cada segundo.
+
+
 
 ```cpp
 // SENSOR_OLEOSIDADE
