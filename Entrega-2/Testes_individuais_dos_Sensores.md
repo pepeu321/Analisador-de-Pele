@@ -13,7 +13,7 @@ Funcionamento Básico:
 Leitura da Tensão: A tensão de saída do circuito é monitorada. Quanto maior o nível de reflexão da pele, maior a tensão de saída.
 
 
-![Fototransistor](https://github.com/user-attachments/assets/0b4f65c4-0d0a-4661-b986-a11d10324bed)
+![Fototransistor](https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5)
 ![Fototransistor coberto](https://github.com/user-attachments/assets/463a3d83-a938-4d63-9ef3-5844629f3552)
 
 Pele sem óleo
