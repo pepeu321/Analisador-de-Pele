@@ -12,21 +12,24 @@ Funcionamento Básico:
 * Variação de Sinal: A quantidade de luz refletida altera a corrente conduzida pelo fototransistor. 
 Leitura da Tensão: A tensão de saída do circuito é monitorada. Quanto maior o nível de reflexão da pele, maior a tensão de saída.
 
+<img src="https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5" width="400">
 
-![Fototransistor](https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5)
-![Fototransistor coberto](https://github.com/user-attachments/assets/463a3d83-a938-4d63-9ef3-5844629f3552)
+<img src="https://github.com/user-attachments/assets/463a3d83-a938-4d63-9ef3-5844629f3552" width="400">
 
-Pele sem óleo
-![Sem oleo](https://github.com/user-attachments/assets/09280e50-2357-422d-b35c-59f849c60f2c)
+<br>
+<br>
 
-Pele com pouco óleo
-![Pouco oleo](https://github.com/user-attachments/assets/584d0fc5-bb4e-43cf-98ea-72a5269ba30d)
+**Pele sem óleo**  
+<img src="https://github.com/user-attachments/assets/09280e50-2357-422d-b35c-59f849c60f2c" width="400">
 
-Pele com um pouco mais de óleo]
-![Mais oleo](https://github.com/user-attachments/assets/f38e8578-8f4e-4123-ab84-68ae72efefed)
+**Pele com pouco óleo**  
+<img src="https://github.com/user-attachments/assets/584d0fc5-bb4e-43cf-98ea-72a5269ba30d" width="400">
 
-Pele com muito óleo
-![Muito oleo](https://github.com/user-attachments/assets/71a4995e-f0bf-43bf-b40e-8926ebaa1121)
+**Pele com um pouco mais de óleo**  
+<img src="https://github.com/user-attachments/assets/f38e8578-8f4e-4123-ab84-68ae72efefed" width="400">
+
+**Pele com muito óleo**  
+<img src="https://github.com/user-attachments/assets/71a4995e-f0bf-43bf-b40e-8926ebaa1121" width="400">
 
 Durante os testes práticos com o sensor de oleosidade, foram realizadas medições de tensão correspondentes a diferentes condições da pele. Os valores obtidos foram:
 
@@ -49,19 +52,21 @@ Funcionamento Básico:
 * Circuito RC: Um resistor de 10kΩ é ligado em série com os capacitor, formando um circuito RC.
 * Leitura da Tensão: A tensão no terminal comum entre o resistor e os eletrodos é monitorada. Quanto maior a hidratação da pele, maior a capacitância entre os eletrodos, e mais lenta será a carga do capacitor, resultando em uma tensão mais baixa.
 
-![CircuitoRC](https://github.com/user-attachments/assets/042996c4-1e62-4679-a959-658a7dee9f7d)
+**Circuito RC**  
+<img src="https://github.com/user-attachments/assets/042996c4-1e62-4679-a959-658a7dee9f7d" width="400">
 
-Sem toque na pele
-![Sem toque](https://github.com/user-attachments/assets/424c17da-8860-4a20-8a14-cd851ede3ad5)
+**Sem toque na pele**  
+<img src="https://github.com/user-attachments/assets/424c17da-8860-4a20-8a14-cd851ede3ad5" width="400">
 
-Com toque da pele
-![Com toque](https://github.com/user-attachments/assets/6f341fa0-5b25-405f-8ad7-0c2c33bf4516)
+**Com toque da pele**  
+<img src="https://github.com/user-attachments/assets/6f341fa0-5b25-405f-8ad7-0c2c33bf4516" width="400">
 
-Pele com hidratante
-![Com creme](https://github.com/user-attachments/assets/5c79cd74-7432-4af8-b610-0cdad731db5a)
+**Pele com hidratante**  
+<img src="https://github.com/user-attachments/assets/5c79cd74-7432-4af8-b610-0cdad731db5a" width="400">
 
-Pele molhada
-![Pele molhada](https://github.com/user-attachments/assets/4e9ff4b0-4954-463e-acca-a22753675720)
+**Pele molhada**  
+<img src="https://github.com/user-attachments/assets/4e9ff4b0-4954-463e-acca-a22753675720" width="400">
+
 
 Durante os testes práticos com o sensor de hidratação, foram realizadas medições  correspondentes a diferentes condições da pele. Os valores obtidos foram:
 
