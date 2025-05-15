@@ -67,7 +67,7 @@ int main(void) {
 
 # Sensor de Hidratação
 
-Para o sensor de hidratação, foi testado um código baseado na medição do tempo de carga de um circuito RC, utilizando o Timer_A do MSP430 em modo captura. O tempo medido foi enviado via UART para um terminal, possibilitando a observação direta dos valores durante a execução. Assim como no sensor de oleosidade, a comunicação com o terminal foi fundamental para verificar o comportamento do circuito de forma isolada, antes da integração final dos sensores no sistema.
+Para o sensor de hidratação, foi desenvolvido e testado um código baseado na medição do tempo de carga de um circuito RC, utilizando o Timer_A do MSP430 em modo de captura. O tempo registrado foi transmitido via UART para um terminal serial, permitindo a observação em tempo real dos valores durante a execução. Assim como no sensor de oleosidade, a comunicação serial foi essencial para validar o comportamento do circuito de forma isolada, antes da integração final dos sensores ao sistema completo. O funcionamento do programa consiste em aguardar um pulso digital (borda de subida) no pino P1.2. Quando o pulso é detectado, o Timer salva o valor atual do contador no registrador TA0CCR1. Uma interrupção é então acionada, e o tempo entre o pulso atual e o anterior é calculado. Esse tempo, representando o intervalo entre eventos, é então enviado via UART ao terminal. O ciclo se repete a cada 1 segundo. O Timer opera em modo contínuo, contando de 0 até 65535 e reiniciando automaticamente após atingir esse valor.
 
 ```cpp
 // SENSOR HIDRATAÇÃO 
