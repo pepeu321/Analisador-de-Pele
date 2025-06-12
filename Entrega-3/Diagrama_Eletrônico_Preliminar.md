@@ -1,3 +1,5 @@
+**Diagrama Eletrônico Preliminar
+
 O esquemático foi desenvolvido para atender a todas as exigências do projeto 
 físico da placa de circuito impresso. O uso do microcontrolador em formato standalone 
 (apenas o chip) exige cuidados específicos para garantir seu funcionamento adequado. Os 
