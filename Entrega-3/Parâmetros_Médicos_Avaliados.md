@@ -42,11 +42,9 @@ As leituras do sensor, registradas em milivolts (mV), foram agrupadas por gêner
 
 Observações:
 
-As leituras aumentaram progressivamente com o nível de oleosidade da pele, como esperado.
+* As leituras aumentaram progressivamente com o nível de oleosidade da pele, como esperado.
 
-Em geral, os homens apresentaram valores médios mais elevados em todas as condições, especialmente nas situações de pele com mais oleo e muito oleosa.
-
-Essa diferença pode estar associada a fatores fisiológicos como maior atividade das glândulas sebáceas nos homens, maior densidade de poros e espessura cutânea.
+* Em geral, os homens apresentaram valores médios mais elevados em todas as condições, especialmente nas situações de pele com mais oleo e muito oleosa. Essa diferença pode estar associada a fatores fisiológicos como maior atividade das glândulas sebáceas nos homens, maior densidade de poros e espessura cutânea.
 
 Essa distinção demonstra que o gênero influencia a resposta do sensor de oleosidade, sendo um fator relevante a ser considerado em análises comparativas ou calibragens personalizadas do dispositivo.
 
@@ -70,11 +68,9 @@ Os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram 
 
 Observações:
 
-Participantes com pele morena apresentaram leituras médias mais elevadas em todas as condições, principalmente nas situações de oleosidade aumentada.
+* Participantes com pele morena apresentaram leituras médias mais elevadas em todas as condições, principalmente nas situações de oleosidade aumentada. Essa diferença pode estar relacionada a fatores ópticos e fisiológicos: a maior concentração de melanina na pele morena pode alterar a reflexão da luz utilizada pelo sensor, além de haver possíveis diferenças na composição sebácea entre os tons de pele.
 
-Essa diferença pode estar relacionada a fatores ópticos e fisiológicos: a maior concentração de melanina na pele morena pode alterar a reflexão da luz utilizada pelo sensor, além de haver possíveis diferenças na composição sebácea entre os tons de pele.
-
-Apesar disso, o comportamento geral foi semelhante entre os grupos: aumento consistente nas leituras com o crescimento da oleosidade da pele.
+* Apesar disso, o comportamento geral foi semelhante entre os grupos: aumento consistente nas leituras com o crescimento da oleosidade da pele.
 
 Portanto, o tom de pele também impacta a resposta do sensor, e ajustes ou calibrações específicas podem ser importantes para garantir precisão e equidade nos resultados em diferentes perfis de usuários.
 
