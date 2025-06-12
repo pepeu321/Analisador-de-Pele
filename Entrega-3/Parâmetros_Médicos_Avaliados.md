@@ -10,7 +10,11 @@ As condições analisadas foram:
 
 * Pele molhada.
 
-Os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico “Comparação entre gênero (µs) – Hidratação”.
+Os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico abaixo:
+
+<img src="https://github.com/user-attachments/assets/b739400e-84d7-45f1-bf65-09a3aa25afed" width="600">
+
+
 
 Observa-se que:
 
