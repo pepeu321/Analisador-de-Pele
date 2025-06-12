@@ -19,7 +19,7 @@ e o capacitor, envia a tensão do capacitor em relação ao GND ao microcontrola
 leitura é feita através do pino 2 (P1.0), configurado como entrada para o TIMER0, 
 responsável por medir o tempo de carga/descarga do capacitor.
 
-<img src="https://github.com/user-attachments/assets/5e04ad59-0688-4106-bd58-50503d780dec" width="400">
+<img src="https://github.com/user-attachments/assets/3f4f1581-72dd-4335-8799-d6ed578cb2e" width="400">
 
 O bloco do sensor de oleosidade segue o mesmo princípio do sensor de umidade, 
 a diferença está na saída do sinal: a tensão gerada no circuito é enviada ao microcontrolador 
@@ -89,4 +89,5 @@ resistores pulldown para os pinos não utilizados pode ser vista na figura 8 aba
 
 <img src="https://github.com/user-attachments/assets/16505323-f90a-4ccb-b831-3fc3c5657652))" width="400">
 
+![image](https://github.com/user-attachments/assets/27c84c99-0e4f-47bf-8367-3955cb9c1d3b)
 
