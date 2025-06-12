@@ -1,17 +1,21 @@
-Para avaliar os parâmetros médicos, os testes foram realizados com diferentes voluntários, visando identificar padrões e limiares que permitam classificar a condição da pele em categorias como pele seca, pele normal, pele oleosa e pele muito oleosa, fazendo o mesmo para o nível de hidratação.
-A oleosidade foi medida em 11 voluntários por meio da leitura de um valor analógico (tensão) captado por um fototransistor, refletindo a intensidade de luz sobre a superfície da pele. Quanto maior a oleosidade, maior a absorção de luz e, consequentemente, maior o valor lido.
+## Comparação entre Gêneros – Avaliação de Hidratação
 
+Foi realizada uma análise comparativa entre os gêneros masculino e feminino quanto à resposta do sensor capacitivo em diferentes condições de hidratação da pele. Participaram do experimento 11 indivíduos, todos na faixa dos 20 anos, sendo agrupados conforme o sexo.
 
+As condições analisadas foram:
 
-A partir desses dados, foi possível estabelecer os seguintes limiares de classificação:
+* Pele seca,
 
-Abaixo de 1,1 V → Pele seca
+* Pele com aplicação de hidratante,
 
-Entre 1,1 V e 1,5 V → Pele normal
+* Pele molhada.
 
-Entre 1,5 V e 1,65 V → Pele oleosa
+Os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico “Comparação entre gênero (µs) – Hidratação”.
 
-Acima de 1,65 V → Pele muito oleosa
+Observa-se que:
 
-A hidratação foi avaliada por meio de um circuito RC, no qual o tempo de carga do capacitor (relacionado à condutividade da pele) foi capturado com precisão. Para cada voluntário, foram coletados dados em três condições distintas:
+* O tempo de resposta aumentou progressivamente com o nível de hidratação da pele, indicando maior retenção de umidade nas camadas superficiais.
 
+* As mulheres apresentaram, em média, tempos ligeiramente menores que os homens em todas as condições. Essa diferença pode estar associada a características fisiológicas como espessura da epiderme e composição da barreira cutânea.
+
+Essa distinção evidencia que fatores biológicos, como o sexo, influenciam a resposta do sensor e devem ser considerados em aplicações que envolvam análise de hidratação cutânea.
