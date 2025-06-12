@@ -9,8 +9,7 @@ dos conectores, permitindo a ligação por fios até os sensores e a interface h
 (display). Para facilitar o entendimento, o esquemático foi dividido em blocos funcionais. O 
 esquemático está ilustrado na Figura 1, abaixo.
 
-
-![image](https://github.com/user-attachments/assets/b90740f7-07ac-4269-8522-715f42c57716)
+<img src="https://github.com/user-attachments/assets/b90740f7-07ac-4269-8522-715f42c57716" width="400">
 
  O primeiro bloco corresponde ao sensor de umidade, que utiliza um circuito RC 
 conectado em série. Esse circuito altera sua impedância conforme o nível de umidade 
@@ -20,8 +19,7 @@ e o capacitor, envia a tensão do capacitor em relação ao GND ao microcontrola
 leitura é feita através do pino 2 (P1.0), configurado como entrada para o TIMER0, 
 responsável por medir o tempo de carga/descarga do capacitor.
 
-![image](https://github.com/user-attachments/assets/5e04ad59-0688-4106-bd58-50503d780dec)
-
+<img src="https://github.com/user-attachments/assets/5e04ad59-0688-4106-bd58-50503d780dec" width="400">
 
 O bloco do sensor de oleosidade segue o mesmo princípio do sensor de umidade, 
 a diferença está na saída do sinal: a tensão gerada no circuito é enviada ao microcontrolador 
