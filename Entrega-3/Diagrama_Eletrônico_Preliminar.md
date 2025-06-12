@@ -28,7 +28,7 @@ a diferença está na saída do sinal: a tensão gerada no circuito é enviada a
 por meio do pino p1.3, onde será convertida por um conversor analógico-digital (ADC) e 
 posteriormente interpretada pelo sistema. O sensor de oleosidade pode ser visto na figura 3 
 abaixo.
-<img src="[https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5](https://github.com/user-attachments/assets/11b06461-3b69-4c71-aa1d-ae8c794f2f22)" width="400">
+<img src="[https://github.com/user-attachments/assets/c0b63acd-4973-4f88-a44e-d2b86c7ad8c5]" width="400">
 
 Este bloco representa a interface de programação e depuração do sistema, por 
 meio de um conector macho de 2 pinos. Ele está conectado diretamente aos pinos TEST 
