@@ -89,5 +89,4 @@ resistores pulldown para os pinos não utilizados pode ser vista na figura 8 aba
 
 <img src="https://github.com/user-attachments/assets/16505323-f90a-4ccb-b831-3fc3c5657652" width="400">
 
-![image](https://github.com/user-attachments/assets/27c84c99-0e4f-47bf-8367-3955cb9c1d3b)
 
