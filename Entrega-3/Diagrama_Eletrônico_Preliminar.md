@@ -53,7 +53,7 @@ garantindo fácil substituição. Optou-se pelas baterias do tipo moeda por sua 
 baixo custo e compatibilidade com o perfil do projeto. A bateria pode ser vista na figura 5 
 abaixo.
 
-<img src="https://github.com/user-attachments/assets/6c853dfe-253d-4a7b-8f44-84f1526dafb5)" width="400">
+<img src="https://github.com/user-attachments/assets/6c853dfe-253d-4a7b-8f44-84f1526dafb5" width="400">
 
  A interface visual do sistema é composta por um display OLED de 0,96 polegadas, 
 com resolução de 128x64 pixels e comunicação via protocolo I²C. A conexão com o 
@@ -66,7 +66,7 @@ integridade dos sinais e evitando estados indefinidos. Essa solução oferece um
 gráfica de baixo consumo e boa legibilidade para o usuário. A interface gráfica pode ser vista 
 figura 6 abaixo.
 
-<img src="https://github.com/user-attachments/assets/b3ac2ec8-d25e-4678-8949-d0b14e09b885)" width="400">
+<img src="https://github.com/user-attachments/assets/b3ac2ec8-d25e-4678-8949-d0b14e09b885" width="400">
 
  A distribuição dos pinos do microcontrolador foi cuidadosamente planejada 
 conforme as funcionalidades necessárias. Os pinos 16 (RST) e 17 (TEST) são reservados 
@@ -77,7 +77,7 @@ sistema. O pino 2 (P1.0) é utilizado para leitura do sensor de umidade via TIME
 demais pinos não são utilizados neste projeto. As conexões utilizadas do microcontrolador 
 podem ser vistas na figura 7 abaixo
 
-<img src="https://github.com/user-attachments/assets/cbaf27f1-5af5-41ae-aaab-1fdce2186f61)" width="400">
+<img src="https://github.com/user-attachments/assets/cbaf27f1-5af5-41ae-aaab-1fdce2186f61" width="400">
 
 Para garantir imunidade a ruídos e prevenir consumo indevido ou comportamento 
 inesperado, todos os pinos não utilizados do MSP430G2553 foram conectados a resistores 
@@ -87,7 +87,7 @@ diretamente aos pinos 3, 4, de 6 a 13, além dos pinos 18 e 19, garantindo que e
 terminais permaneçam em estado definido durante toda a operação do sistema.. A rede de 
 resistores pulldown para os pinos não utilizados pode ser vista na figura 8 abaixo.
 
-<img src="https://github.com/user-attachments/assets/16505323-f90a-4ccb-b831-3fc3c5657652))" width="400">
+<img src="https://github.com/user-attachments/assets/16505323-f90a-4ccb-b831-3fc3c5657652" width="400">
 
 ![image](https://github.com/user-attachments/assets/27c84c99-0e4f-47bf-8367-3955cb9c1d3b)
 
