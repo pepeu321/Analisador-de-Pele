@@ -8,5 +8,6 @@ Paralelamente, o sensor RC mede a hidratação da pele. Ele se baseia no tempo d
 
 Os dados obtidos de ambos os sensores são processados elo microcontrolador, que realiza a conversão para valores interpretáveis como porcentagem de oleosidade e hidratação e os exibe no display OLED, que está conectado via barramento I2C.
 
-<img src="https://github.com/user-attachments/assets/3febc4b7-200e-41f8-932a-0e2334e8af9c" width="900">
+<img src="https://github.com/user-attachments/assets/efc14c64-123e-4ef4-a00c-e3ea1f21a52a" width="900">
+
 
