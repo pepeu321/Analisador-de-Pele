@@ -48,8 +48,6 @@ Observações:
 
 Isso está em plena concordância com Man et al. (2009), que observaram que homens produzem significativamente mais sebo que mulheres a partir da adolescência, com picos de produção mais tardios e níveis consistentemente mais altos.
 
-A maior atividade das glândulas sebáceas, maior densidade de poros e espessura cutânea nos homens também foram destacadas em Giacomoni et al. (2009) como fatores biológicos determinantes da diferença.
-
 Essa distinção demonstra que o gênero influencia a resposta do sensor de oleosidade, sendo um fator relevante a ser considerado em análises comparativas ou calibragens personalizadas do dispositivo.
 
 ## Comparação entre Tons de Pele – Avaliação de Oleosidade
