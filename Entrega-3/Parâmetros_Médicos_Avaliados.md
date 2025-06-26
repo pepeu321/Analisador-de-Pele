@@ -18,7 +18,7 @@ Observa-se que:
 
 * O tempo de resposta aumentou progressivamente com o nível de hidratação da pele, indicando maior retenção de umidade nas camadas superficiais.
 
-* As mulheres apresentaram, em média, tempos ligeiramente menores que os homens em todas as condições. Essa diferença pode estar associada a características fisiológicas como espessura da epiderme e composição da barreira cutânea.
+* As mulheres apresentaram, em média, tempos ligeiramente menores que os homens em todas as condições, o que pode estar relacionado à menor espessura da epiderme e diferenças na composição da barreira cutânea, conforme descrito por Giacomoni et al. (2009) e Youssif et al. (2025).
 
 Essa distinção evidencia que fatores biológicos, como o sexo, influenciam a resposta do sensor e devem ser considerados em aplicações que envolvam análise de hidratação cutânea.
 
@@ -42,17 +42,19 @@ As leituras do sensor, registradas em milivolts (mV), foram agrupadas por gêner
 
 Observações:
 
-* As leituras aumentaram progressivamente com o nível de oleosidade da pele, como esperado.
+* As leituras aumentaram progressivamente com o nível de oleosidade da pele, confirmando a capacidade do sensor de refletir a variação sebácea.
 
-* Em geral, os homens apresentaram valores médios mais elevados em todas as condições, especialmente nas situações de pele com mais oleo e muito oleosa. Essa diferença pode estar associada a fatores fisiológicos como maior atividade das glândulas sebáceas nos homens, maior densidade de poros e espessura cutânea.
+* Homens apresentaram valores médios mais elevados em todas as condições, especialmente nas situações de pele com mais oleo e muito oleosa.
+
+Isso está em plena concordância com Man et al. (2009), que observaram que homens produzem significativamente mais sebo que mulheres a partir da adolescência, com picos de produção mais tardios e níveis consistentemente mais altos.
+
+A maior atividade das glândulas sebáceas, maior densidade de poros e espessura cutânea nos homens também foram destacadas em Giacomoni et al. (2009) como fatores biológicos determinantes da diferença.
 
 Essa distinção demonstra que o gênero influencia a resposta do sensor de oleosidade, sendo um fator relevante a ser considerado em análises comparativas ou calibragens personalizadas do dispositivo.
 
 ## Comparação entre Tons de Pele – Avaliação de Oleosidade
 
-Foi também realizada uma análise da resposta do sensor de oleosidade com base no tom de pele dos participantes. Os indivíduos foram agrupados em dois grupos principais: pele branca e pele morena, conforme autodeclaração e observação direta.
-
-As mesmas quatro condições foram analisadas:
+Foi realizada ainda uma análise da resposta do sensor de oleosidade considerando o tom de pele dos participantes, agrupados como pele branca e pele morena.
 
 * Pele seca
 
@@ -62,7 +64,7 @@ As mesmas quatro condições foram analisadas:
 
 * Pele muito oleosa
 
-Os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico abaixo:
+As mesmas quatro condições de oleosidade foram avaliadas, com os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico abaixo:
 
 <img src="https://github.com/user-attachments/assets/a6efbb20-8588-49a2-addf-516d1a8cab79" width="600">
 
@@ -73,5 +75,27 @@ Observações:
 * Apesar disso, o comportamento geral foi semelhante entre os grupos: aumento consistente nas leituras com o crescimento da oleosidade da pele.
 
 Portanto, o tom de pele também impacta a resposta do sensor, e ajustes ou calibrações específicas podem ser importantes para garantir precisão e equidade nos resultados em diferentes perfis de usuários.
+
+## Considerações finais 
+
+Mesmo com uma amostra pequena, os padrões identificados em nosso experimento estão alinhados com estudos de larga escala, o que reforça a robustez da metodologia e a direção correta do projeto.
+
+A literatura científica confirma que:
+
+* Homens apresentam mais oleosidade e, em determinadas faixas etárias, mais hidratação.
+
+* Mulheres tendem a ter menor resposta sebácea e mais sensibilidade à desidratação.
+
+* Variações fisiológicas entre gêneros e tons de pele são reais e impactam diretamente sensores biofísicos.
+
+Dessa forma, nossos resultados preliminares contribuem para a validação de um modelo de detecção adaptável e sensível às variáveis biológicas individuais, que poderá ser aprimorado com maior escala amostral e calibração personalizada.
+
+### Referências
+
+Giacomoni, P.U., Mammone, T., Teri, M. Gender-linked differences in human skin. Journal of Dermatological Science, 2009. https://doi.org/10.1016/j.jdermsci.2009.06.001
+
+Youssif, A.A., Bari, D.S. Gender differences in the effects of skin hydration on electrodermal activity measurements. Journal of Electrical Bioimpedance, 2025. https://doi.org/10.2478/joeb-2025-0006
+
+Man, M.Q. et al. Variation of Skin Surface pH, Sebum Content and Stratum Corneum Hydration with Age and Gender in a Large Chinese Population. Skin Pharmacology and Physiology, 2009. https://doi.org/10.1159/000231524
 
 
