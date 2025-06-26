@@ -11,7 +11,7 @@ dos conectores, permitindo a ligação por fios até os sensores e a interface h
 (display). Para facilitar o entendimento, o esquemático foi dividido em blocos funcionais. O 
 esquemático está ilustrado na Figura 1, abaixo.
 
-<img src="https://github.com/user-attachments/assets/b90740f7-07ac-4269-8522-715f42c57716" width="600">
+<img src="https://github.com/user-attachments/assets/3f4f1581-72dd-4335-8799-d6ed578cb2e" width="600">
 
  O primeiro bloco corresponde ao sensor de umidade, que utiliza um circuito RC 
 conectado em série. Esse circuito altera sua impedância conforme o nível de umidade 
