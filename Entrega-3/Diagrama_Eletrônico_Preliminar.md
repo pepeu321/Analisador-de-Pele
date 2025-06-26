@@ -42,7 +42,7 @@ estabilização da tensão de alimentação. A bateria será inserida em um soqu
 garantindo fácil substituição. Optou-se pelas baterias do tipo moeda por sua praticidade, 
 baixo custo e compatibilidade com o perfil do projeto.
 
-<img src="https://github.com/user-attachments/assets/c0e09914-422e-412c-a52c-3c2d4d48eee7" width="200">
+<img src="https://github.com/user-attachments/assets/c0e09914-422e-412c-a52c-3c2d4d48eee7" width="100">
 
  A interface visual do sistema é composta por um display OLED de 0,96 polegadas, 
 com resolução de 128x64 pixels e comunicação via protocolo I²C. A conexão com o 
@@ -52,27 +52,19 @@ alimentado com 3.3 V, compatível com os níveis do microcontrolador. Os pinos
 (SDA) do microcontralador foram utilizados para essa comunicação. Foram incluídos 
 resistores de 4.7kΩ nessas linhas, garantindo a integridade dos sinais e evitando estados indefinidos.
 
-<img src="https://github.com/user-attachments/assets/c4aea0c2-9675-4da8-8f02-1e766bb4aaa8" width="200">
+<img src="https://github.com/user-attachments/assets/c4aea0c2-9675-4da8-8f02-1e766bb4aaa8" width="300">
 
  A distribuição dos pinos do microcontrolador foi cuidadosamente planejada 
-conforme as funcionalidades necessárias. Os pinos 16 (RST) e 17 (TEST) são reservados 
+conforme as funcionalidades necessárias. Os pinos 16 (SBWTCK) e 17 (SBWTDIO) são reservados 
 para programação e depuração. O pino 1 (VCC) fornece 3 V e o pino 20 (GND) é o terra do 
-sistema. O pino 2 (P1.0) é utilizado para leitura do sensor de umidade via TIMER0, e o pino 5 
-(P1.3) recebe o sinal analógico do sensor de oleosidade, convertido via ADC3. Os pinos 14 
+sistema. O pino 4 (P1.2) é utilizado para leitura do sensor de umidade via TIMER0, e o pino 6 
+(P1.4) recebe o sinal analógico do sensor de oleosidade, convertido via ADC. Os pinos 14 
 (P1.6) e 15 (P1.7) foram reservados para a comunicação I²C com o display OLED. Os 
-demais pinos não são utilizados neste projeto. As conexões utilizadas do microcontrolador 
-podem ser vistas na figura 7 abaixo
+demais pinos não são utilizados neste projeto.
 
-<img src="https://github.com/user-attachments/assets/cbaf27f1-5af5-41ae-aaab-1fdce2186f61" width="400">
+<img src="https://github.com/user-attachments/assets/ea088507-bc34-4dc9-b382-bcfcdb2cd228" width="600">
 
-Para garantir imunidade a ruídos e prevenir consumo indevido ou comportamento 
-inesperado, todos os pinos não utilizados do MSP430G2553 foram conectados a resistores 
-pulldown de 10 kΩ. Embora seja possível configurar esses pinos em nível baixo via software, 
-a solução física foi preferida por confiabilidade adicional. Os resistores foram conectados 
-diretamente aos pinos 3, 4, de 6 a 13, além dos pinos 18 e 19, garantindo que esses 
-terminais permaneçam em estado definido durante toda a operação do sistema.. A rede de 
-resistores pulldown para os pinos não utilizados pode ser vista na figura 8 abaixo.
 
-<img src="https://github.com/user-attachments/assets/16505323-f90a-4ccb-b831-3fc3c5657652" width="400">
+
 
 
