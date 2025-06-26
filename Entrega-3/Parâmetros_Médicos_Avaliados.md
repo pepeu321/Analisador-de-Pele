@@ -24,7 +24,7 @@ Essa distinção evidencia que fatores biológicos, como o sexo, influenciam a r
 
 ## Comparação entre Gêneros – Avaliação de Oleosidade
 
-Foi realizada uma análise comparativa entre os gêneros masculino e feminino quanto à resposta do sensor de oleosidade em diferentes condições da pele. Participaram do experimento 11 indivíduos, agrupados conforme o sexo.
+Também foi realizada uma análise comparativa entre os gêneros masculino e feminino quanto à resposta do sensor de oleosidade em diferentes condições da pele. Participaram do experimento 11 indivíduos, agrupados conforme o sexo.
 
 As condições analisadas foram:
 
