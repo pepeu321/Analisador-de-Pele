@@ -29,8 +29,7 @@ por meio do pino p1.3, onde será convertida por um conversor analógico-digital
 posteriormente interpretada pelo sistema. O sensor de oleosidade pode ser visto na figura 3 
 abaixo.
 
-
-<img src="https://github.com/user-attachments/assets/aa0a775f-fe12-47d8-ba68-045394d3b007" width="400">
+<img src="https://github.com/user-attachments/assets/5b021295-c491-4eba-ab9b-449e2840b9e5" width="400">
 
 Este bloco representa a interface de programação e depuração do sistema, por 
 meio de um conector macho de 2 pinos. Ele está conectado diretamente aos pinos TEST 
