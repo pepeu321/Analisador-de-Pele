@@ -80,7 +80,7 @@ Mesmo com uma amostra pequena, os padrões identificados em nosso experimento es
 
 A literatura científica confirma que:
 
-* Homens apresentam mais oleosidade e, em determinadas faixas etárias, mais hidratação.
+* Homens apresentam mais oleosidade e mais hidratação.
 
 * Mulheres tendem a ter menor resposta sebácea e mais sensibilidade à desidratação.
 
