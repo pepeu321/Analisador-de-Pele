@@ -49,7 +49,7 @@ Observa-se que a tensão de saída aumenta proporcionalmente ao nível de oleosi
 No projeto, o sensor de hidratação tem como objetivo detectar a umidade da pele por meio da variação da capacitância entre dois eletrodos paralelos. Esses eletrodos formam um capacitor de placas, cuja capacitância muda conforme a condutividade e o teor de água presentes na pele. A medição é feita utilizando um circuito RC simples, onde a constante de tempo depende diretamente da capacitância formada pelos eletrodos em contato com a pele.
 Funcionamento Básico:
 * Eletrodos em Paralelo: Dois terminais metálicos são posicionados em paralelo com um capacitor de 100pF, formando um capacitor cuja capacitância varia conforme a pele entra em contato com eles.
-* Circuito RC: Um resistor de 10kΩ é ligado em série com um capacitor de 1nF, formando um circuito RC.
+* Circuito RC: Um resistor de 10kΩ é ligado em série com capacitor , formando um circuito RC.
 * Leitura da Tensão: A tensão no terminal comum entre o resistor e os eletrodos é monitorada. Quanto maior a hidratação da pele, maior a capacitância entre os eletrodos, e mais lenta será a carga do capacitor, resultando em uma tensão mais baixa.
 
 **Circuito RC**  
