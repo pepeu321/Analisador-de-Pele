@@ -38,7 +38,7 @@ As condições analisadas foram:
 
 As leituras do sensor, registradas em milivolts (mV), foram agrupadas por gênero e apresentadas no gráfico abaixo:
 
-<img src="https://github.com/user-attachments/assets/6095defa-e8ec-45a9-93ea-b35c4e230177" width="600">
+<img src="https://github.com/user-attachments/assets/a6efbb20-8588-49a2-addf-516d1a8cab79" width="600">
 
 Observações:
 
@@ -64,7 +64,7 @@ Foi realizada ainda uma análise da resposta do sensor de oleosidade considerand
 
 As mesmas quatro condições de oleosidade foram avaliadas, com os tempos médios de resposta do sensor, medidos em microssegundos (µs), foram calculados para cada grupo e apresentados no gráfico abaixo:
 
-<img src="https://github.com/user-attachments/assets/a6efbb20-8588-49a2-addf-516d1a8cab79" width="600">
+<img src="https://github.com/user-attachments/assets/6095defa-e8ec-45a9-93ea-b35c4e230177" width="600">
 
 Observações:
 
