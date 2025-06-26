@@ -11,7 +11,7 @@ dos conectores, permitindo a ligação por fios até os sensores e a interface h
 (display). Para facilitar o entendimento, o esquemático foi dividido em blocos funcionais. O 
 esquemático está ilustrado abaixo.
 
-<img src="https://github.com/user-attachments/assets/6a11df59-0fff-46d8-9f59-b53c959bfdaf" width="600">
+<img src="https://github.com/user-attachments/assets/f42c7fc5-8554-4866-b8f6-cd9a226171b4" width="600">
 
 O primeiro bloco corresponde ao sensor de hidratação, que utiliza um circuito RC 
 conectado em série. Esse circuito altera sua impedância conforme o nível de hidratação 
@@ -29,7 +29,7 @@ posteriormente interpretada pelo sistema.
 
 <img src="https://github.com/user-attachments/assets/157d8141-3018-48fa-a184-5f0bb6f63962" width="200">
 
-Este bloco representa a progamação via SBW(Spy-Bi-Wire), é a interface de progamação e depuração para o microcontralador, ela permite a comunicação ente o msp430 e o computador a partir de dois pinos, SBWTCK (clock) e SBWTDIO(dados entrada e saída). Possui um diodo schottky para proteger a linha de alimentação contra inversão da polaridade e um resistor de 47kΩ é colocado no pino SBWTDIO para garantir um nível lógico alto quando a linha não esta ociosa.
+Este bloco representa a progamação via SBW(Spy-Bi-Wire), é a interface de progamação e depuração para o microcontralador, ela permite a comunicação ente o msp430 e o computador a partir de dois pinos, SBWTCK (clock) e SBWTDIO(dados entrada e saída). Possui um diodo schottky para proteger a linha de alimentação contra inversão da polaridade e um resistor de 47kΩ com um capacitor de 1nF para formar um circuito RC é colocado no pino SBWTDIO para garantir um nível lógico alto quando a linha não esta ociosa.
 
 <img src="https://github.com/user-attachments/assets/12095c71-1ff4-4c0e-adad-62e410ff8643" width="200">
 
