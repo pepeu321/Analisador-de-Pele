@@ -84,8 +84,6 @@ A literatura científica confirma que:
 
 * Mulheres tendem a ter menor resposta sebácea e mais sensibilidade à desidratação.
 
-* Variações fisiológicas entre gêneros e tons de pele são reais e impactam diretamente sensores biofísicos.
-
 Dessa forma, nossos resultados preliminares contribuem para a validação de um modelo de detecção adaptável e sensível às variáveis biológicas individuais, que poderá ser aprimorado com maior escala amostral e calibração personalizada.
 
 ### Referências
