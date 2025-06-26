@@ -11,7 +11,7 @@ dos conectores, permitindo a ligação por fios até os sensores e a interface h
 (display). Para facilitar o entendimento, o esquemático foi dividido em blocos funcionais. O 
 esquemático está ilustrado abaixo.
 
-<img src="https://github.com/user-attachments/assets/f42c7fc5-8554-4866-b8f6-cd9a226171b4" width="600">
+<img src="https://github.com/user-attachments/assets/f42c7fc5-8554-4866-b8f6-cd9a226171b4" width="800">
 
 O primeiro bloco corresponde ao sensor de hidratação, que utiliza um circuito RC 
 conectado em série. Esse circuito altera sua impedância conforme o nível de hidratação 
