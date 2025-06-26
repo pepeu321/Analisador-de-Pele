@@ -9,40 +9,29 @@ extremidade de um case com 15 cm de comprimento. Embora o circuito esquemátic
 simples e resulte em uma placa menor que o case, essa diferença de tamanho justifica o uso 
 dos conectores, permitindo a ligação por fios até os sensores e a interface homem-máquina 
 (display). Para facilitar o entendimento, o esquemático foi dividido em blocos funcionais. O 
-esquemático está ilustrado na Figura 1, abaixo.
+esquemático está ilustrado abaixo.
 
-<img src="https://github.com/user-attachments/assets/3f4f1581-72dd-4335-8799-d6ed578cb2e" width="600">
+<img src="https://github.com/user-attachments/assets/6a11df59-0fff-46d8-9f59-b53c959bfdaf" width="600">
 
- O primeiro bloco corresponde ao sensor de umidade, que utiliza um circuito RC 
-conectado em série. Esse circuito altera sua impedância conforme o nível de umidade 
-presente na pele. A alimentação é feita por meio de dois pinos: um conectado ao VCC (pino 
-1) e outro ao GND (pino 3). O pino central (pino 2), ligado ao ponto de junção entre o resistor 
+O primeiro bloco corresponde ao sensor de hidratação, que utiliza um circuito RC 
+conectado em série. Esse circuito altera sua impedância conforme o nível de hidratação 
+presente na pele. A alimentação é feita por meio de dois pinos: um conectado ao VCC (pino 1) e outro ao GND (pino 2). A saída será o ponto de junção entre o resistor 
 e o capacitor, envia a tensão do capacitor em relação ao GND ao microcontrolador. Essa 
-leitura é feita através do pino 2 (P1.0), configurado como entrada para o TIMER0, 
+leitura é feita através do pino P1.2, configurado como entrada para o TIMER0, 
 responsável por medir o tempo de carga/descarga do capacitor.
 
-<img src="https://github.com/user-attachments/assets/3f4f1581-72dd-4335-8799-d6ed578cb2e" width="400">
+<img src="https://github.com/user-attachments/assets/6d2235bb-ab02-45aa-b8ab-b476d049a44c" width="200">
 
 O bloco do sensor de oleosidade segue o mesmo princípio do sensor de umidade, 
 a diferença está na saída do sinal: a tensão gerada no circuito é enviada ao microcontrolador 
-por meio do pino p1.3, onde será convertida por um conversor analógico-digital (ADC) e 
-posteriormente interpretada pelo sistema. O sensor de oleosidade pode ser visto na figura 3 
-abaixo.
+por meio do pino P1.4, onde será convertida por um conversor analógico-digital (ADC) e 
+posteriormente interpretada pelo sistema.
 
-<img src="https://github.com/user-attachments/assets/5b021295-c491-4eba-ab9b-449e2840b9e5" width="400">
+<img src="https://github.com/user-attachments/assets/157d8141-3018-48fa-a184-5f0bb6f63962" width="200">
 
-Este bloco representa a interface de programação e depuração do sistema, por 
-meio de um conector macho de 2 pinos. Ele está conectado diretamente aos pinos TEST 
-(17) e RST (16) do MSP430G2553, permitindo a gravação de firmware e depuração via 
-protocolo SBW (Spy-Bi-Wire), padrão da linha MSP430. Para garantir a estabilidade do sinal 
-de reset, foi adicionado um resistor pullup de 100 kΩ entre o pino RST e o VCC (3 V), 
-mantendo o nível lógico alto durante a operação normal. Um capacitor de 100 nF entre o pino 
-RST e o GND funciona como filtro, suprimindo ruídos e transientes que poderiam causar 
-reinicializações indesejadas. A solução adotada garante robustez e compatibilidade com 
-programadores padrão. A estrutura do bloco de reset e programação pode ser vista na figura 
-4 abaixo.
+Este bloco representa a progamação via SBW(Spy-Bi-Wire), é a interface de progamação e depuração para o microcontralador, ela permite a comunicação ente o msp430 e o computador a partir de dois pinos, SBWTCK (clock) e SBWTDIO(dados entrada e saída). Possui um diodo schottky para proteger a linha de alimentação contra inversão da polaridade e um resistor de 47kΩ é colocado no pino SBWTDIO para garantir um nível lógico alto quando a linha não esta ociosa.
 
-<img src="https://github.com/user-attachments/assets/b64aa6e1-9f6c-42df-a595-ce717baf16c7" width="400">
+<img src="https://github.com/user-attachments/assets/12095c71-1ff4-4c0e-adad-62e410ff8643" width="200">
 
 O bloco de alimentação foi projetado com foco na portabilidade do produto, sendo 
 utilizada uma bateria tipo moeda. As opções consideradas foram CR2450 (500 mAh) e 
@@ -51,23 +40,19 @@ capacidade foi considerada insuficiente diante do consumo contínuo do display e
 sensores. Um capacitor de 100 nF foi adicionado em paralelo para filtragem de ruídos e 
 estabilização da tensão de alimentação. A bateria será inserida em um soquete apropriado, 
 garantindo fácil substituição. Optou-se pelas baterias do tipo moeda por sua praticidade, 
-baixo custo e compatibilidade com o perfil do projeto. A bateria pode ser vista na figura 5 
-abaixo.
+baixo custo e compatibilidade com o perfil do projeto.
 
-<img src="https://github.com/user-attachments/assets/6c853dfe-253d-4a7b-8f44-84f1526dafb5" width="400">
+<img src="https://github.com/user-attachments/assets/c0e09914-422e-412c-a52c-3c2d4d48eee7" width="200">
 
  A interface visual do sistema é composta por um display OLED de 0,96 polegadas, 
 com resolução de 128x64 pixels e comunicação via protocolo I²C. A conexão com o 
-MSP430G2553 é feita através de um conector Molex fêmea de 4 pinos, que fornece as linhas 
+msp é feita através de um conector Molex fêmea de 4 pinos, que fornece as linhas 
 de alimentação (VCC e GND) e os sinais de dados (SDA) e clock (SCL). O display é 
-alimentado com 3 V, compatível com os níveis do microcontrolador. Os pinos 14 (SCL) e 15 
-(SDA) do MSP430G2553 foram utilizados para essa comunicação. Foram incluídos 
-resistores pullup de 10 kΩ nessas linhas, conforme exigido pelo padrão I²C, garantindo a 
-integridade dos sinais e evitando estados indefinidos. Essa solução oferece uma interface 
-gráfica de baixo consumo e boa legibilidade para o usuário. A interface gráfica pode ser vista 
-figura 6 abaixo.
+alimentado com 3.3 V, compatível com os níveis do microcontrolador. Os pinos P1.6 (SCL) e P1.7 
+(SDA) do microcontralador foram utilizados para essa comunicação. Foram incluídos 
+resistores de 4.7kΩ nessas linhas, garantindo a integridade dos sinais e evitando estados indefinidos.
 
-<img src="https://github.com/user-attachments/assets/b3ac2ec8-d25e-4678-8949-d0b14e09b885" width="400">
+<img src="https://github.com/user-attachments/assets/c4aea0c2-9675-4da8-8f02-1e766bb4aaa8" width="200">
 
  A distribuição dos pinos do microcontrolador foi cuidadosamente planejada 
 conforme as funcionalidades necessárias. Os pinos 16 (RST) e 17 (TEST) são reservados 
