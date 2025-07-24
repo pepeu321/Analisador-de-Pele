@@ -42,6 +42,6 @@ O sistema de gerenciamento de bateria utiliza o circuito integrado HT4928S (U2) 
 
 ## Microcontrolador
 
-![Uploading image.png…]()  
+<img width="1033" height="593" alt="image" src="https://github.com/user-attachments/assets/1193e60a-c515-4e73-b430-959917dbacdd" />
 
 O microcontrolador MSP430G2553, posicionado como unidade central do sistema, coordena todas as funções de aquisição, controle e comunicação. Ele é alimentado com 3,3V e utiliza um cristal externo para garantir precisão no tempo de captura. Suas entradas e saídas digitais controlam a carga e descarga do capacitor, realizam leituras analógicas do sensor óptico, interagem com o display OLED via I²C e processam eventos do comparador analógico.
