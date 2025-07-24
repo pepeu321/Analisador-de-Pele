@@ -2,8 +2,6 @@
 
 O layout da placa de circuito impresso (PCI) foi desenvolvido para organizar os componentes do sistema de forma funcional e compacta. O sistema foi projetado para medir dois parâmetros da pele humana: hidratação e oleosidade, por meio de sensores conectados à placa. A disposição dos elementos levou em consideração o posicionamento dos sensores , a alimentação por bateria e a exibição dos dados em um display, buscando eficiência na montagem e no uso do dispositivo. O projeto do layout foi elaborado no software KiCad, e a partir das dimensões e do posicionamento dos componentes na placa, foi possível modelar o gabinete que a acomoda.
 
-<img width="1532" height="556" alt="image" src="https://github.com/user-attachments/assets/421586b8-6a52-4bb1-b414-398731dad987" />
-
 ## Desenvolvimento - Placa do circuito
 
 A placa foi produzida em fibra de vidro cobreada com dimensões de 9 x 3 cm. A transferência do layout foi feita por meio de prensa térmica, seguida pela corrosão química do cobre para formação das trilhas. Após esse processo, a placa foi estanhada para evitar oxidação e aumentar a durabilidade do circuito. Em seguida, os componentes SMD foram soldados nas posições definidas no layout.
@@ -11,6 +9,8 @@ A placa foi produzida em fibra de vidro cobreada com dimensões de 9 x 3 cm. A t
 O posicionamento dos componentes segue uma lógica da direita para a esquerda. À direita da placa encontra-se a porta USB-C, responsável pela recarga da bateria de 3,7 V posicionada na parte superior. Ao lado da porta, foi inserido um conversor buck-boost que regula a tensão de alimentação do sistema. A bateria e os componentes de controle de carga foram agrupados próximos a essa região para facilitar a distribuição de energia.
 
 Na parte central está o microcontrolador, montado em um soquete DIP para facilitar reprogramação ou substituição. O display OLED foi fixado na parte superior da placa, diretamente acima do microcontrolador, sendo responsável por exibir as leituras dos sensores. À esquerda da placa estão conectados os sensores. O sensor de oleosidade utiliza um LED infravermelho e um fototransistor posicionados no gabinete, enquanto a leitura de hidratação é realizada por meio de dois conectores metálicos externos que fazem contato direto com a pele do usuário, permitindo a medição capacitiva. O design do gabinete foi desenvolvido com base nas dimensões e pontos de conexão da placa, garantindo encaixe preciso e exposição adequada dos sensores.
+
+<img width="1532" height="556" alt="image" src="https://github.com/user-attachments/assets/421586b8-6a52-4bb1-b414-398731dad987" />
 
 ![WhatsApp Image 2025-07-24 at 15 44 23](https://github.com/user-attachments/assets/11c58c22-549e-433c-b818-50e5062d604f)
 
