@@ -3,7 +3,7 @@
 <img width="1115" height="766" alt="image" src="https://github.com/user-attachments/assets/be6ef602-beb6-4531-b34a-b2448d1ec82b" />
 
 
-## Sensor Capacitivo
+## Sensor RC
 
 <img width="445" height="373" alt="image" src="https://github.com/user-attachments/assets/821b1313-0445-4f49-ac30-4b6bb15499f9" />
 
