@@ -3,11 +3,11 @@
 <img width="1115" height="766" alt="image" src="https://github.com/user-attachments/assets/be6ef602-beb6-4531-b34a-b2448d1ec82b" />
 
 
-## Sensor RC
+## Sensor RC 
 
-<img width="445" height="373" alt="image" src="https://github.com/user-attachments/assets/821b1313-0445-4f49-ac30-4b6bb15499f9" />
+<img width="822" height="542" alt="image" src="https://github.com/user-attachments/assets/05ca86e0-e62e-41b4-868e-61ec3172c166" />
 
-O bloco de medição de resistência da pele utiliza a técnica de descarga capacitiva com captura de tempo, implementada com os periféricos Comparator_A+ e Timer_A do MSP430G2553. Um capacitor é carregado e, em seguida, descarregado através de uma resistência selecionável entre uma referência fixa (R_REF) e a resistência da pele (R_MEAS). A tensão do capacitor é monitorada pelo comparador analógico, que gera uma transição lógica quando ela atinge menos que 0,25 × Vcc, porque o comparador tem que disparar na descida. Esse evento é capturado por uma entrada de captura do Timer_A (CCI1B), permitindo a medição precisa do tempo de descarga. Como a constante de tempo RC é diretamente proporcional à resistência, o tempo medido reflete a resistência conectada, viabilizando medições com alta resolução utilizando apenas componentes internos do microcontrolador e um capacitor externo.
+O bloco de medição de resistência da pele foi desenvolvido com base na application note da Texas Instruments, que implementa os periféricos Comparator_A+ e Timer_A do MSP430G2553. Um capacitor é carregado e, em seguida, descarregado através de uma resistência selecionável entre uma referência fixa (R_REF) e a resistência da pele (R_MEAS). A tensão do capacitor é monitorada pelo comparador analógico, que gera uma transição lógica quando ela atinge menos que 0,25 × Vcc, porque o comparador tem que disparar na descida. Esse evento é capturado por uma entrada de captura do Timer_A (CCI1B), permitindo a medição precisa do tempo de descarga. Como a constante de tempo RC é diretamente proporcional à resistência, o tempo medido reflete a resistência conectada, viabilizando medições com alta resolução utilizando apenas componentes internos do microcontrolador e um capacitor externo.
 
 ## Sensor de Oleosidade
 
