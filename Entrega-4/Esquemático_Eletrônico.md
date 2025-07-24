@@ -30,7 +30,7 @@ O bloco de programação e depuração do MSP430 é baseado na interface Spy-Bi-
 
 ## Fonte de alimentação (USB-C)
 
-<img width="873" height="407" alt="image" src="https://github.com/user-attachments/assets/ff10cf41-de7f-4f33-926c-9e3a43a54045" />
+<img width="298" height="312" alt="image" src="https://github.com/user-attachments/assets/c83981c3-8eda-42ce-b52c-ac5ef24b200d" />
 
 A fonte de alimentação via USB-C é implementada com o conector J6, responsável por fornecer os 5V de entrada do sistema. Os resistores R4 e R5, de 5,1 kΩ, são conectados aos pinos CC1 e CC2 do USB-C, sinalizando ao carregador a solicitação de energia conforme o padrão USB Power Delivery. A linha VBUS resultante fornece 5V estabilizados, que são encaminhados tanto para o circuito de carregamento da bateria quanto para o regulador de tensão responsável por alimentar o restante do sistema.
 
