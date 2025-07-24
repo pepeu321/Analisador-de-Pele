@@ -28,5 +28,7 @@ O gabinete do dispositivo foi modelado em 3D utilizando o software Onshape, com 
 A integração entre a placa e o gabinete 3D permitiu a montagem precisa do dispositivo, alinhando a estrutura física ao posicionamento dos componentes. Os dois pinos metálicos utilizados na leitura capacitiva foram fixados na tampa do gabinete e conectados à placa por fios, possibilitando o contato direto com a pele do usuário. Além disso, o encaixe definido no design garantiu uma distância fixa entre o sensor de oleosidade e a superfície da pele, contribuindo para maior consistência nos resultados de medição.
 
 ![WhatsApp Image 2025-07-24 at 15 44 25](https://github.com/user-attachments/assets/3b7cd4eb-716c-4674-a4d2-9d66ce590ab9)
+![WhatsApp Image 2025-07-24 at 17 09 29](https://github.com/user-attachments/assets/454a57c9-7ec4-434b-9e7d-ac73367a2191)
+
 
 
