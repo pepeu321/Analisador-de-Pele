@@ -39,10 +39,10 @@ A fonte de alimentação via USB-C é implementada com o conector J6, responsáv
 <img width="884" height="407" alt="image" src="https://github.com/user-attachments/assets/6ceb09d2-8dbe-444e-9413-59e2417be417" />
 
 
-O sistema de gerenciamento de bateria utiliza o circuito integrado HT4928S (U2) para controlar o carregamento de uma célula de íon de lítio conectada aos terminais BAT+ e BAT–. O CI realiza controle de corrente e tensão para garantir o carregamento seguro da bateria, além de fornecer indicação visual do estado de carga por meio dos LEDs D1 e D2. Após o carregamento, a tensão da bateria é regulada para 3,3V por meio do regulador linear AMS1117-3.3 (U3), que alimenta o MSP430 e seus periféricos.
+O sistema de gerenciamento de bateria utiliza o circuito integrado HT4928S (U2) para controlar o carregamento de uma célula de íon de lítio conectada aos terminais BAT+ e BAT–. O CI realiza controle de corrente e tensão para garantir o carregamento seguro da bateria, além de fornecer indicação visual do estado de carga por meio dos LEDs D1 e D2. Além da função de carga, o HT4928S também incorpora um conversor boost, elevando a tensão da bateria para 5V quando necessário. Essa tensão é então regulada para 3,3V por meio do regulador linear AMS1117-3.3 (U3), que alimenta o MSP430 e seus periféricos, garantindo estabilidade e operação contínua mesmo com variações na tensão da bateria.
 
 ## Microcontrolador
 
 <img width="1033" height="593" alt="image" src="https://github.com/user-attachments/assets/1193e60a-c515-4e73-b430-959917dbacdd" />
 
-O microcontrolador MSP430G2553, posicionado como unidade central do sistema, coordena todas as funções de aquisição, controle e comunicação. Ele é alimentado com 3,3V e o oscilador interno para garantir precisão no tempo de captura. Suas entradas e saídas digitais controlam a carga e descarga do capacitor, realizam leituras analógicas do sensor óptico, interagem com o display OLED via I2C e processam eventos do comparador analógico.
+O microcontrolador MSP430G2553, posicionado como unidade central do sistema, coordena todas as funções de aquisição, controle e comunicação. Ele é alimentado com 3,3V e o oscilador interno para simplificar a aplicação. Suas entradas e saídas digitais controlam a carga e descarga do capacitor, realizam leituras analógicas do sensor óptico, interagem com o display OLED via I2C e processam eventos do comparador analógico.
