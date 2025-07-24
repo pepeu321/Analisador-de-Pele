@@ -6,7 +6,7 @@ O layout da placa de circuito impresso (PCI) foi desenvolvido para organizar os 
 
 ## Desenvolvimento - Placa do circuito
 
-A placa foi produzida em fenolite cobreado com dimensões de 9 x 3 cm. A transferência do layout foi feita por meio de prensa térmica, seguida pela corrosão química do cobre para formação das trilhas. Após esse processo, a placa foi estanhada para evitar oxidação e aumentar a durabilidade do circuito. Em seguida, os componentes SMD foram soldados nas posições definidas no layout.
+A placa foi produzida em fibra de vidro cobreado com dimensões de 9 x 3 cm. A transferência do layout foi feita por meio de prensa térmica, seguida pela corrosão química do cobre para formação das trilhas. Após esse processo, a placa foi estanhada para evitar oxidação e aumentar a durabilidade do circuito. Em seguida, os componentes SMD foram soldados nas posições definidas no layout.
 
 O posicionamento dos componentes segue uma lógica da direita para a esquerda. À direita da placa encontra-se a porta USB-C, responsável pela recarga da bateria de 3,7 V posicionada na parte superior. Ao lado da porta, foi inserido um conversor buck-boost que regula a tensão de alimentação do sistema. A bateria e os componentes de controle de carga foram agrupados próximos a essa região para facilitar a distribuição de energia.
 
